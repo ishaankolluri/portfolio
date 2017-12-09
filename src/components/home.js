@@ -35,7 +35,7 @@ export default class Home extends Component {
         </Row>
         <Row className="animated fadeInUp projectContainer">
           <Col className="folioImageContainer" xs="12" sm="12" md="4" lg="4">
-            <NavLink to="/portfolio/avs/"><img className="img-fluid img-folio folioThumbnail" alt="thumbnail" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/uber.gif"/></NavLink>
+            <NavLink to="/avs"><img className="img-fluid img-folio folioThumbnail" alt="thumbnail" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/uber.gif"/></NavLink>
             <div className="thumbnailHeader">SELF-DRIVING VEHICLE STIGMA</div>
               <p>
                 Through conversations with friends and family, we noticed concerns regarding autonomous vehicles.
@@ -44,7 +44,7 @@ export default class Home extends Component {
               <p className="univers-light-obl"><span className="univers-bold-obl">Skills: </span>survey design, user interviews, <br/>product design</p>
           </Col>
           <Col className="folioImageContainer" xs="12" sm="12" md="4" lg="4">
-          <NavLink to="/portfolio/snowbuddy/"><img className=" img-fluid img-folio folioThumbnail" alt="thumbnail" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddy.jpg"/></NavLink>
+          <NavLink to="/snowbuddy"><img className=" img-fluid img-folio folioThumbnail" alt="thumbnail" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddy.jpg"/></NavLink>
             <div className="thumbnailHeader">SNOWBUDDY</div>
               <p>
                 Moving to the East Coast means dealing with daily snow-related activities, like shoveling and salting.

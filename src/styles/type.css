@@ -1,0 +1,43 @@
+.heroText {
+  text-align: center;
+  font-family: UniversLTStd-Light, sans-serif;
+  font-size: 36px;
+  padding: 90px
+}
+
+.thumbnailHeader {
+  text-align: left;
+  font-family: UniversLTStd-Bold, sans-serif;
+  font-size: 18px;
+  padding-top: 15px;
+  text-align: left;
+  letter-spacing: 0.4px;
+}
+
+/* .thumbnailSkills {
+  font-family: 
+}
+
+.skillsBold {
+  font-family:
+} */
+
+@media (max-width: 768px) {
+  .heroText {
+    text-align: center;
+    font-family: UniversLTStd-Light, sans-serif;
+    font-size: 21px;
+    padding: 30px;
+  }
+
+  .thumbnailHeader {
+    text-align: left;
+    font-family: UniversLTStd-Bold, sans-serif;
+    font-size: 14px;
+    padding-top: 15px;
+    text-align: left;
+    letter-spacing: 0.4px;
+  }
+
+}
+

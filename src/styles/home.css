@@ -1,0 +1,38 @@
+.img-folio {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.img-folio::after{
+  z-index: -1;
+  opacity: 0;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 5px;
+}
+
+.img-folio:hover {
+  transform: scale(1.05, 1.05);
+  opacity: 1;  
+}
+
+.img-folio:hover::after {
+  opacity: 1;
+}
+
+.folioImageContainer {
+  padding: 0px 40px 0px 40px;
+  width: 100%;
+}
+
+.projectContainer {
+  padding-top: 0 auto 0 auto;
+}
+
+p {
+  padding-top: 8px;
+  font-family: UniversLTStd-Light, sans-serif;
+  font-size: 14px;
+}

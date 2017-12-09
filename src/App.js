@@ -75,7 +75,7 @@ export default class App extends Component {
               <Route path="/portfolio/about" component={About}/>
               <Route path="/portfolio/process" component={About}/>
               <Route path="/portfolio/avs" component={Snowbuddy}/>
-              <Route path="/snowbuddy" component={Snowbuddy}/>
+              <Route path="/portfolio/snowbuddy" component={Snowbuddy}/>
           </Container>
           <Container>
             <Social />

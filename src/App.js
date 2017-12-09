@@ -34,7 +34,7 @@ export default class App extends Component {
           <Container className="fixedNav">
             <Row className="mobilePadding">
               <Col className="logoContainer" md="4" lg="4" sm="3" xs="3">
-                  <a href="/"><img className="logo" alt="logo" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/logo.png"/></a>
+                  <a href="portfolio/"><img className="logo" alt="logo" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/logo.png"/></a>
               </Col>
               <Col className="tabs" md="8" lg="8" sm="9" xs="9">
                 <ul>
@@ -43,7 +43,7 @@ export default class App extends Component {
                       className="navStyles"
                       activeClassName="tabbed"
                       exact
-                      to="/">
+                      to="/portfolio/">
                       Home
                     </NavLink>
                     <span></span>
@@ -52,7 +52,7 @@ export default class App extends Component {
                     <NavLink
                       className="navStyles"
                       activeClassName="tabbed"
-                      to="/about">
+                      to="/portfolio/about">
                       About
                     </NavLink>
                     <span></span>
@@ -61,7 +61,7 @@ export default class App extends Component {
                     <NavLink
                       className="navStyles"
                       activeClassName="tabbed"
-                      to="/process">
+                      to="/portfolio/process">
                       Process
                     </NavLink>
                     <span></span>
@@ -71,10 +71,10 @@ export default class App extends Component {
             </Row>
           </Container>
           <Container>
-              <Route exact path="/" component={Home}/>
-              <Route path="/about" component={About}/>
-              <Route path="/process" component={About}/>
-              <Route path="/avs" component={Snowbuddy}/>
+              <Route exact path="/portfolio/" component={Home}/>
+              <Route path="/portfolio/about" component={About}/>
+              <Route path="/portfolio/process" component={About}/>
+              <Route path="/portfolio/avs" component={Snowbuddy}/>
               <Route path="/snowbuddy" component={Snowbuddy}/>
           </Container>
           <Container>

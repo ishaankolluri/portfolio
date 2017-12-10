@@ -42,6 +42,7 @@ export default class App extends Component {
                     <NavLink
                       className="navStyles"
                       activeClassName="tabbed"
+                      exact
                       to="/">
                       Home
                     </NavLink>

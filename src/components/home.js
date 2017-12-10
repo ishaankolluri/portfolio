@@ -28,9 +28,9 @@ export default class Home extends Component {
               backSpeed={15}
               backDelay={3000}
             />
-            <div className="btn-center">
+            {/* <div className="btn-center">
               <button className="resumeButton buttonShadow"><a rel="noopener noreferrer" href="https://s3.us-east-2.amazonaws.com/ishaankolluri/IshaanKolluriNov2017.pdf" target="_blank">RESUME</a></button>
-            </div>
+            </div> */}
           </Col>
         </Row>
         <Row className="animated fadeInUpBig projectContainer">
@@ -50,7 +50,7 @@ export default class Home extends Component {
                 Moving to the East Coast means dealing with daily snow-related activities, like shoveling and salting.
                 Snowbuddy connects you with your neighbors so you can deal with it together.
               </p>
-              <p className="skillContent"><span className="skillHeader">Skills: </span>mobile & interaction design, survey design, guerrilla interviews </p>
+              <p className="skillContent"><span className="skillHeader">Skills: </span>responsive mobile & web interaction design, survey design, guerrilla interviews </p>
           </Col>
           <Col className="folioImageContainer" xs="12" sm="12" md="4" lg="4">
             <img className="img-fluid img-folio folioThumbnail" alt="thumbnail" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/uber.gif"/>

@@ -57,12 +57,7 @@ export default class App extends Component {
                     <span></span>
                   </li>
                   <li>
-                    <NavLink
-                      className="navStyles"
-                      activeClassName="tabbed"
-                      to="/process">
-                      Process
-                    </NavLink>
+                    <a rel="noopener noreferrer" href="https://s3.us-east-2.amazonaws.com/ishaankolluri/IshaanKolluriNov2017.pdf" target="_blank">Resume</a>
                     <span></span>
                   </li>
                 </ul>

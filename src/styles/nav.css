@@ -7,7 +7,8 @@
 ul{
   list-style-type: none;
   text-align: right;
-  font-family: UniversLTStd-Light, sans-serif;
+  font-weight: 300;
+  font-family: Lato, sans-serif;
 }
 
 li{
@@ -42,7 +43,8 @@ li:hover span {
 }
 
 .tabbed {
-  font-family: UniversLTStd-Bold, sans-serif;
+  font-family: Lato, sans-serif;
+  font-weight: 900;
 }
 
 .tabs {
@@ -80,7 +82,8 @@ li:hover span {
   ul{
     list-style-type: none;
     text-align: center;
-    font-family: UniversLTStd-Light, sans-serif;
+    font-family: Lato, sans-serif;
+    font-weight: 300;
   }
 
   li a{

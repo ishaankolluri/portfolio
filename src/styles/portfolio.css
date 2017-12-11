@@ -14,8 +14,9 @@
   text-align: center;
   margin: auto;
 }
-.sectionHeader {
-  font-family: UniversLTStd-Bold, sans-serif;
+.projectHeader {
+  font-family: Oswald, sans-serif;
+  font-weight: 700;
   font-size: 48px;
   letter-spacing: 2.5px;
   padding: 15px;
@@ -23,16 +24,83 @@
 }
 
 .captionText {
-  font-family: UniversLTStd-LightObl, sans-serif;
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-weight: 300;
   padding: 10px;
 }
 
+p {
+  font-size: 16px;
+  font-weight: 300;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 5px;
+  line-height: 26px;
+}
 
+/* Begin Centered List Info*/
+
+.p-list {
+  text-align: center;
+}
+
+
+.a-list {
+  font-family: Oswald, sans-serif;
+  font-weight: 700;
+  margin: auto;
+  font-size: 32px;
+  letter-spacing: 1.5px;
+  padding: 20px;
+  text-align: center;
+}
+
+.b-list {
+  font-family: Oswald, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  margin: auto;
+  padding: 20px 0px 10px 0px;  
+}
+
+/* End Centered List Info*/
+
+
+/*Begin Regular Header Info*/
+
+.a-head {
+  font-family: Oswald, sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 1.5px;
+  padding-bottom: 20px;
+}
+
+.body {
+  padding: 20px 200px 20px 70px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+
+}
 
 
 @media (max-width: 768px) {
-  .sectionHeader {
-    font-family: UniversLTStd-Bold, sans-serif;
+
+  .a-head{
+    font-family: Oswald,sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    padding: 20px;
+  }
+  .body {
+    padding: 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+  }
+  .projectHeader {
+    font-family: Oswald, sans-serif;
+    font-weight: 700;
     font-size: 36px;
     letter-spacing: 1.5px;
     padding: 10px;

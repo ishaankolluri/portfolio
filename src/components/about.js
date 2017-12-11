@@ -15,7 +15,7 @@ export default class About extends Component {
           <Col xs="12" sm="12" md="12" lg="8">
             <img className="animated fadeIn img-fluid profileImage" alt="profile" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/ishaanprofile.JPG"/>
           </Col>
-          <Col className="animated fadeInRight" xs="12" sm="12" md="12" lg="4">
+          <Col className="animated fadeIn" xs="12" sm="12" md="12" lg="4">
             <p>
               Hi, I'm Ishaan Kolluri, a programmer and designer from the Bay Area.
               I graduated from Columbia University with a degree in Computer Science, 

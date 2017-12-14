@@ -4,7 +4,7 @@ import { Row, Col } from 'reactstrap';
 import '../styles/animate.css';
 
 import '../styles/button.css';
-import '../styles/portfolio.css'
+import '../styles/portfolio.css';
 
 
 export default class Snowbuddy extends Component {
@@ -54,6 +54,31 @@ export default class Snowbuddy extends Component {
             I was somewhat amused when our research took us in the direction of snow. Snowbuddy is inspired by my experience living in a New York City apartment, 
             and having to shovel the street outside my stoop after a particularly nasty snowfall. I've been stuck downtown because roads were closed, and have no idea how to salt a sidewalk.
           </p>
+        </Row>
+        <Row>
+          <div className="a-head">Our project:</div>
+          <p className="body">Our goal was to design a responsive website to <b>connect people in times of emergency</b>. 
+          We purposefully kept the definition loose—we didn't want to begin designing a solution before figuring out our user needs.
+          Our timeline went as follows:</p>
+          <div className="centeredContainer">
+            <ol>
+              <li className="centered-list">Guerrilla research through convenience sampling on the street</li>
+              <li className="centered-list">Synthesizing personas and storyboarding</li>
+              <li className="centered-list">Wireframing</li>
+              <li className="centered-list">High fidelity design</li>
+            </ol>
+          </div>
+        </Row>
+        <Row>
+          <div className="a-head">Initial research:</div>
+        </Row>
+        <Row>
+          <Col lg="3"><img className="img-fluid portfolio-img" alt="guerrilla research" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddy_guerrilla.JPG" /></Col>
+          <Col lg="9">
+            <p>
+              We wanted to help 
+            </p>
+          </Col>
         </Row>
       </div>
     );

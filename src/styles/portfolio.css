@@ -10,6 +10,14 @@
   box-shadow: 0 5px 15px rgba(0,0,0,0.15);
 }
 
+.medium-image-inline {
+  width: 50%;
+  height: 50%;
+  margin: 20px auto 70px auto;
+  border-radius: 5px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
 .centeredTextContainer {
   text-align: center;
   margin: auto;
@@ -42,6 +50,7 @@ p {
   margin-bottom: 5px;
   line-height: 26px;
 }
+
 
 /* Begin Centered List Info*/
 
@@ -83,17 +92,44 @@ p {
 }
 
 .body {
-  padding: 20px 200px 20px 70px;
+  padding: 10px 200px 20px 70px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+
+.body-left {
+  padding: 10px 100px 20px 55px;
   font-family: Roboto, sans-serif;
   font-size: 16px;
 }
 
 .centered-list {
   display: list-item !important;
-  font-family: Oswald, sans-serif;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
-  letter-spacing: 0.5px;
-  font-weight: 500;
+  padding-bottom: 0px;
+  font-weight: 300;
+}
+
+.bulletList {
+  list-style-type: disc !important;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  padding: 10px 200px 20px 20px;
+}
+
+.bullet {
+  display: list-item !important;
+  padding-bottom: 0px;
+  padding-left: 1px;
+}
+
+.numberList {
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  text-align: left;
+  padding: 10px 200px 20px 20px;
 }
 
 .portfolio-img {
@@ -130,9 +166,8 @@ p {
 
   .centered-list {
     display: list-item !important;
-    font-family: Oswald, sans-serif;
+    font-family: Roboto, sans-serif;
     font-size: 14px;
-    font-weight: 400;
   }
 
   .centeredContainer {

@@ -8,6 +8,12 @@ import '../styles/portfolio.css';
 
 
 export default class Snowbuddy extends Component {
+
+  handleBackToTop(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+  }
+
   render(){
     return (
       <div>
@@ -16,6 +22,11 @@ export default class Snowbuddy extends Component {
           <div className="centeredTextContainer projectHeader">SNOWBUDDY</div>
           <br/>
           <div className="centeredTextContainer captionText">A responsively designed website to bring the community together during snow-related emergencies.</div>
+        </Row>
+        <Row>
+          <div className="btn-center">
+            <button className="resumeButton buttonShadow"><a rel="noopener noreferrer" href="https://invis.io/TRF8096A7#/272209740_Splash" target="_blank">INVISION PROTOTYPE</a></button>
+          </div>
         </Row>
         <Row className="animated fadeIn"><div className="a-list">Project Information</div></Row>
         <Row className="animated fadeIn">
@@ -145,7 +156,7 @@ export default class Snowbuddy extends Component {
           <p className="body">
             We first designed extremely rough wireframes identifying the key screens of the app. 
             We were designing both for mobile and desktop, so we chose interactions that represented the experience of both the customer and provider. 
-            Taking feedback from our wireframes, we came up with a set of screens that we felt represented the essence of the Snowbuddy experience.
+            After soliciting feedback for our wireframes, we came up with a set of screens that we felt represented the essence of the Snowbuddy experience.
           </p>          
         </Row>
         <Row>
@@ -153,6 +164,12 @@ export default class Snowbuddy extends Component {
         </Row>
         <Row>
           <img className="img-fluid flowchart flow-image-inline" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddyflow2.jpg" alt="flow1"/>
+          <p className="body">Our final design step was creating a short Invision prototype to walk our subjects through Snowbuddy's high fidelity design.</p>
+        </Row>
+        <Row>
+          <div className="btn-center">
+            <button className="resumeButton buttonShadow"><a rel="noopener noreferrer" href="https://invis.io/TRF8096A7#/272209740_Splash" target="_blank">INVISION PROTOTYPE</a></button>
+          </div>
         </Row>
         <Row>
           <div className="a-head">Room to improve </div>
@@ -168,7 +185,6 @@ export default class Snowbuddy extends Component {
             Given more time, we'd likely create more features so that the entire feature set can be achieved from mobile. 
             Desktop, naturally, is limited in necessity for someone actively shoveling, but plenty of detail can be provided to help an interested customer achieve their ideal goal.
           </p>
-          
         </Row>
         <Row>
           <div className="a-head">Major takeaways</div>
@@ -179,6 +195,17 @@ export default class Snowbuddy extends Component {
             We did our absolute best to explore a costless solution to post-snow-emergency help by approaching it from the perspective of a tight-knit community. 
             I'd love to put these designs in the hands of my own neighbors in Pittsburgh and see how they feel about participating in this kind of network.
           </p>
+        </Row>
+        <hr/>
+        <Row>
+          <div className="btn-center">
+            <button className="miniButton buttonShadow" onClick={() => this.handleBackToTop()}>BACK TO TOP</button>
+          </div>
+        </Row>
+        <Row>
+          <div className="btn-center">
+            <button className="miniButton buttonShadow"><a rel="noopener noreferrer" href="/portfolio">WORK</a></button>
+          </div>
         </Row>
       </div>
     );

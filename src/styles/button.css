@@ -9,7 +9,19 @@
   background-color: black;
   letter-spacing: 1.4px;
   color: #FAFAFA;
+}
 
+.miniButton {
+  margin-top: 40px;
+  margin-bottom: 10px;
+  font-family: Oswald, sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 12px;
+  cursor: pointer;
+  background-color: black;
+  letter-spacing: 1.4px;
+  color: #FAFAFA;
 }
 
 .buttonShadow {

@@ -80,10 +80,10 @@ export default class Snowbuddy extends Component {
           </p>
         </Row>
         <Row>
-          <img className="medium-image-inline img-fluid" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddyhero.jpeg" alt="header"/>
+          <img className="img-fluid portfolio-img medium-image-inline" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddy_emergencymap.jpg" alt="header"/>
         </Row>
         <Row>
-          <Col lg="9">
+          <Col lg="9" xs="12">
             <p className="body-left">
               We wanted to create a way for neighbors to help each other during emergencies. However, the three of us haven't been through all conceivable emergencies in the world. 
               We took to the streets of Pittsburgh to poll our surroundings, asking them about past emergency experiences, what's bothered them the most, and what they wish had happened before and after the event. 
@@ -99,7 +99,7 @@ export default class Snowbuddy extends Component {
             </ul>
             </div>
           </Col>
-          <Col lg="3"><img className="img-fluid portfolio-img" alt="guerrilla research" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddy_guerrilla.JPG" /></Col>
+          <Col lg="3" xs="12"><img className="img-fluid portfolio-img" alt="guerrilla research" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddy_guerrilla.JPG" /></Col>
         </Row>
         <Row>
           <div className="a-head">Scenarios, project scope, and user personas:</div>
@@ -114,7 +114,7 @@ export default class Snowbuddy extends Component {
               After discussing our feedback to the litany of emergency situations we created scenarios for, we decided to scope our solution: 
             </p>
             <p className="body">
-              <b>A peer economy for neighbors to help each other in snow-related emergencies. More specifically, helping people shovel driveways, 
+              <b>Snowbuddy, a peer economy for neighbors to help each other in snow-related emergencies. More specifically, helping people shovel driveways, 
               salt roads, and break ice, so they may get on with their day.</b>
             </p>
           </div>
@@ -125,9 +125,61 @@ export default class Snowbuddy extends Component {
           </p>
         </Row>
         <Row>
-          <Col lg="6"><img className="portfolio-img img-fluid" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddyhero.jpeg" alt="header"/></Col>
-          <Col lg="6"><img className="portfolio-img img-fluid" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddyhero.jpeg" alt="header"/></Col> 
-        </Row>        
+          <Col lg="6" sm="12" xs="12"><img className="portfolio-img img-fluid" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddy_elaine.jpg" alt="header"/></Col>
+          <Col lg="6" sm="12" xs="12"><img className="portfolio-img img-fluid" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddy_felix.jpg" alt="header"/></Col> 
+        </Row> 
+        <Row>
+          <p className="body">
+            We set out to validate our personas by contextualizing them with user scenarios. We created a storyboard where Elaine needed help clearing out her driveway, and simply requested a shoveler.
+          </p>
+          <img className="portfolio-img img-fluid medium-image-inline" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddy_story1.jpg" alt="header"/>
+          <p className="body">
+           Our feedback was simple—it's extremely convenient to have a service like this on demand in suburban neighborhoods, but people wouldn't use it only for shoveling. So we altered the scope of the storyboard.
+          </p>
+          <img className="portfolio-img img-fluid medium-image-inline" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddy_story2.jpg" alt="header"/>
+        </Row>
+        <Row>
+          <div className="a-head">Wireframes and screens</div>
+        </Row>
+        <Row>
+          <p className="body">
+            We first designed extremely rough wireframes identifying the key screens of the app. 
+            We were designing both for mobile and desktop, so we chose interactions that represented the experience of both the customer and provider. 
+            Taking feedback from our wireframes, we came up with a set of screens that we felt represented the essence of the Snowbuddy experience.
+          </p>          
+        </Row>
+        <Row>
+          <img className="img-fluid flowchart flow-image-inline" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddyflow1.jpg" alt="flow1"/>
+        </Row>
+        <Row>
+          <img className="img-fluid flowchart flow-image-inline" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddyflow2.jpg" alt="flow1"/>
+        </Row>
+        <Row>
+          <div className="a-head">Room to improve </div>
+        </Row>
+        <Row>
+          <p className="body">
+            Having designed the core functionality of the application after 3 weeks of research, we took the time to identify key areas of improvement. 
+            We felt that Snowbuddy in its current form excluded those with physical disabilities, as they would never be able to help anyone. 
+            They could contribute in other ways, such as buying meals for the providers, and providing equipment to the neighborhood.
+          </p>
+          <p className="body">
+            Additionally, we initially compartmentalized the needs of the provider and customer to the mobile and desktop platform, respectively. 
+            Given more time, we'd likely create more features so that the entire feature set can be achieved from mobile. 
+            Desktop, naturally, is limited in necessity for someone actively shoveling, but plenty of detail can be provided to help an interested customer achieve their ideal goal.
+          </p>
+          
+        </Row>
+        <Row>
+          <div className="a-head">Major takeaways</div>
+        </Row>
+        <Row>
+          <p className="body">
+            The design space for this application was scoped to be very specific, but the peer economy space is broad and largely explored. 
+            We did our absolute best to explore a costless solution to post-snow-emergency help by approaching it from the perspective of a tight-knit community. 
+            I'd love to put these designs in the hands of my own neighbors in Pittsburgh and see how they feel about participating in this kind of network.
+          </p>
+        </Row>
       </div>
     );
   }

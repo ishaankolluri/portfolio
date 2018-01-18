@@ -86,7 +86,7 @@ export default class Snowbuddy extends Component {
         </Row>
         <Row>
           <p className="body">
-            Our first exercise was to better understand the types of emergencies out there in a systematic fashion, we drew up a small map of the trajectories we were interested in. 
+            To better understand the types of emergencies out there in a systematic fashion, we drew up a small map of the trajectories we were interested in. 
             None of us were familiar with a software-driven solution to emergencies, so we decided to put ink to paper first.
           </p>
         </Row>

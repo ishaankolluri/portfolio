@@ -5,6 +5,7 @@ import {
   Route,
   NavLink,
   HashRouter,
+  BrowserRouter,
   
 } from "react-router-dom";
 import './styles/animate.css';
@@ -15,6 +16,7 @@ import Home from "./components/home";
 import About from "./components/about";
 import Social from "./components/social";
 import Snowbuddy from "./components/snowbuddy";
+import AVS from "./components/avs";
 import './styles/fonts.css';
 import './styles/nav.css';
 
@@ -29,7 +31,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter basename="/portfolio">
         <div className="fixedPadding">
           <Container className="fixedNav">
             <Row className="mobilePadding">
@@ -69,14 +71,14 @@ export default class App extends Component {
               <Route exact path="/" component={Home}/>
               <Route path="/about" component={About}/>
               <Route path="/process" component={About}/>
-              <Route path="/avs" component={Snowbuddy}/>
+              <Route path="/avs" component={AVS}/>
               <Route path="/snowbuddy" component={Snowbuddy}/>
           </Container>
           <Container>
             <Social />
           </Container>
         </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }

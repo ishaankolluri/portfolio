@@ -10,7 +10,7 @@ import '../styles/button.css';
 export default class Social extends Component {
   render(){
     return (
-      <Row className="animated fadeIn socialContainer">
+      <Row className="animated fadeInUpBig socialContainer">
         <div className="btn-center">
           <a target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/ishaankolluri">
             <img className="social-btn" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/fb.png" alt="social"/>

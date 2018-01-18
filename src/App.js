@@ -16,7 +16,6 @@ import About from "./components/about";
 import Social from "./components/social";
 import Snowbuddy from "./components/snowbuddy";
 import AVS from "./components/avs";
-import './styles/fonts.css';
 import './styles/nav.css';
 
 

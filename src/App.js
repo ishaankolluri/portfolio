@@ -4,6 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import {
   Route,
   NavLink,
+  HashRouter,
   BrowserRouter,
   
 } from "react-router-dom";

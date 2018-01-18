@@ -5,7 +5,6 @@ import {
   Route,
   NavLink,
   HashRouter,
-  BrowserRouter,
   
 } from "react-router-dom";
 import './styles/animate.css';
@@ -30,7 +29,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <BrowserRouter basename="/portfolio">
+      <HashRouter>
         <div className="fixedPadding">
           <Container className="fixedNav">
             <Row className="mobilePadding">
@@ -77,7 +76,7 @@ export default class App extends Component {
             <Social />
           </Container>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }

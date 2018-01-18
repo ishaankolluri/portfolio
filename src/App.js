@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'reactstrap';
 import {
   Route,
   NavLink,
-  HashRouter,
+  BrowserRouter,
   
 } from "react-router-dom";
 import './styles/animate.css';
@@ -30,7 +30,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <HashRouter>
+      <BrowserRouter basename="/portfolio">
         <div className="fixedPadding">
           <Container className="fixedNav">
             <Row className="mobilePadding">
@@ -77,7 +77,7 @@ export default class App extends Component {
             <Social />
           </Container>
         </div>
-      </HashRouter>
+      </BrowserRouter>
     );
   }
 }

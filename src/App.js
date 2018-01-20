@@ -9,8 +9,6 @@ import {
 } from "react-router-dom";
 import './styles/animate.css';
 
-
-
 import Home from "./components/home";
 import About from "./components/about";
 import Social from "./components/social";

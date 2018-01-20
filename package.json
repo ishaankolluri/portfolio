@@ -2,7 +2,7 @@
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ishaankolluri.github.io/",
+  "homepage": "https://ishaankolluri.github.io/portfolio/",
   "dependencies": {
     "animate.css": "^3.5.2",
     "history": "^4.7.2",

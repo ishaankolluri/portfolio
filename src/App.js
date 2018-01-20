@@ -27,7 +27,7 @@ export default class App extends Component {
 
   render() {
     return (
-      <BrowserRouter basename="portfolio">
+      <BrowserRouter basename="/portfolio">
         <div className="fixedPadding">
           <Container className="fixedNav">
             <Row className="mobilePadding">

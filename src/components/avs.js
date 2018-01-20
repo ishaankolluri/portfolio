@@ -26,7 +26,7 @@ export default class AVS extends Component {
         </Row>
         <Row>
           <div className="btn-center">
-            <button className="resumeButton buttonShadow"><a rel="noopener noreferrer" href="https://invis.io/TRF8096A7#/272209740_Splash" target="_blank">FULL PAPER</a></button>
+            <button className="resumeButton buttonShadow"><a rel="noopener noreferrer" href="https://s3.us-east-2.amazonaws.com/ishaankolluri/MitigatingCommunicationAmbiguity.pdf" target="_blank">FULL PAPER</a></button>
           </div>
         </Row>
         <Row className="animated fadeIn"><div className="a-list">Project Information</div></Row>
@@ -219,14 +219,76 @@ export default class AVS extends Component {
         </Row>
         <Row>
           <Col xs="12" lg="4">
-            <img className="img-fluid portfolio-img" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/av_test1_ishaan.jpg" alt="header"/>
+            <img className="img-fluid portfolio-img" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/av_midfi_red.png" alt="header"/>
           </Col>
           <Col xs="12" lg="4">
-            <img className="img-fluid portfolio-img" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/av_test1_ross.JPG" alt="header"/>
+            <img className="img-fluid portfolio-img" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/av_midfi_green.png" alt="header"/>
           </Col>
           <Col xs="12" lg="4">
-            <img className="img-fluid portfolio-img" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/av_test1_ross.JPG" alt="header"/>
+            <img className="img-fluid portfolio-img" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/av_midfi_yellow.png" alt="header"/>
           </Col>
+        </Row>
+        <Row>
+          <p className="body">
+            We shopped these low-fidelity prototypes around to multiple people in the Oakland neighborhood of Pittsburgh, changing iconography and color to match people's autonomous thinking. 
+            We found that the "walking-man" icon and the red hand reminded them of themes on the street. However, people were confused as to whether the display was telling them that pedestrians should stop or that the car would stop. 
+            This confusion was well represented in the end users we interviewed, forcing us to go back to the drawing board. We needed to make sure the display told pedestrians that it was safe to walk in the span of a second, with the minimum amount of bells and whistles.
+          </p>
+        </Row>
+        <Row>
+          <div className="a-head">High fidelity screens and final user testing</div>
+        </Row>
+        <Row>
+          <p className="body">
+            We decided the best way to user test the display was to "experience prototype" it. This meant creating a display that in some way "placed" the respondent within the context of a crosswalk, and we chose an image consistent with that. 
+            We decided to use a more humanoid figure in the display; we want our users to know that the display will actually reflect their likeness. We additionally decided to reserve the "negative" red state for situations where the car has been waiting for a long time. 
+            This was because people responded extremely poorly to confrontation, no matter what negative state iconography we served them. Our discussions and refinements through a final round of user testing produced the final states of the display below. 
+          </p>
+        </Row>
+        <Row><img className="img-fluid portfolio-img medium-image-inline" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/av_final_1.png" alt="header"/></Row>
+        <Row>
+          <p className="body">
+            This is the neutral state, when the car is regularly driving. If it pulls up in an ambiguous situation at a crosswalk with a pedestrian, this is the screen it displays. Our findings determined a neutral state would incentivize people to behave more normally than a confrontational state.
+          </p>
+        </Row>
+        <Row><img className="img-fluid portfolio-img medium-image-inline" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/av_final_2.png" alt="header"/></Row>
+        <Row>
+          <p className="body">
+            The green state informs the user they should go. We indicated this by illustrating bidirectional arrows on the ground, giving the perceptual indication that the pedestrian can walk. We received the best response to this particular screen.
+          </p>
+        </Row>
+        <Row><img className="img-fluid portfolio-img medium-image-inline" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/av_final_3.png" alt="header"/></Row>
+        <Row>
+          <p className="body">
+            This display, the negative state, was received poorly by most of our respondents. However, we felt it had to be included in express situations where pedestrians are in heavy crowds and take advantage of the deferential nature of the vehicle. Ideally, this clears the way for the car to move.
+          </p>
+        </Row>
+        <Row>
+          <div className="a-head">Final Video Presentation & Whitepaper</div>
+        </Row>
+        <Row>
+          <p className="body">
+            On presentation day, we created a video that we played for interested audience members embodying the different states of the ambiguous crosswalk situation. We placed a paper crosswalk on the ground to help them embody the experience. Our metric for success was whether they understood their available actions near-instantaneously. 
+            This would mean that we had achieved an experience conforming to the system-one cognition process outlined in our psychology literature. Our final deliverable was a whitepaper documenting our research and design process, culminating in a justification of our design.
+          </p>
+        </Row>
+        <Row>
+          <div className="btn-center">
+            <button className="resumeButton buttonShadow"><a rel="noopener noreferrer" href="https://s3.us-east-2.amazonaws.com/ishaankolluri/MitigatingCommunicationAmbiguity.pdf" target="_blank">FULL PAPER</a></button>
+          </div>
+        </Row>
+        <Row><img className="img-fluid portfolio-img medium-image-inline" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/av_presentation.jpg" alt="header"/></Row>
+        <Row>
+          <div className="a-head">Reflections & Further Improvements</div>
+        </Row>
+        <Row>
+          <p className="body">
+            We would have loved more time to do more iterations, and would have likely done more on-road prototypes with a full-size laminate version of our high fidelity prototype. Our concept video would have incorporated the video as well. Through this, we would be able to best capture the level of quickness with which users process our design.
+            Some of the final improvements we would have liked to make included designing for those with visual impairments. 
+          </p>
+          <p className="body">
+            This was an extremely interesting intellectual problem for us. The challenge in autonomous vehicles is designing for the transition infrastructure, with both human and artificially intelligent drivers on the road. There is a lot of industry and academic research in the field, and I'm very glad I got to help design the future.
+          </p>
         </Row>
 
       </div>

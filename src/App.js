@@ -32,7 +32,7 @@ export default class App extends Component {
           <Container className="fixedNav">
             <Row className="mobilePadding">
               <Col className="logoContainer" md="4" lg="4" sm="3" xs="3">
-                  <a href="/portfolio"><img className="logo" alt="logo" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/logo.png"/></a>
+                  <a href="/"><img className="logo" alt="logo" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/logo.png"/></a>
               </Col>
               <Col className="tabs" md="8" lg="8" sm="9" xs="9">
                 <ul>

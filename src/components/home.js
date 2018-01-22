@@ -11,6 +11,15 @@ import '../styles/type.css';
 import '../styles/home.css';
 import '../styles/button.css';
 
+          {/* <Col className="folioImageContainer" xs="12" sm="12" md="4" lg="4">
+            <img className="img-fluid img-folio folioThumbnail" alt="thumbnail" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/uber.gif"/>
+            <div className="thumbnailHeader">THINKING ABOUT YOU</div>
+              <p>
+                I designed a mobile social network for exclusive groups of friends.
+                Thinking About You enables brief, friendly interactions to boost self-esteem, and incentivizes users to pay it forward.
+              </p>
+              <p className="skillContent"><span className="skillHeader">Skills: </span>mobile & interaction design</p>
+          </Col> */}
 
 export default class Home extends Component {
   render(){
@@ -34,7 +43,7 @@ export default class Home extends Component {
           </Col>
         </Row>
         <Row className="animated fadeInUpBig projectContainer">
-          <Col className="folioImageContainer" xs="12" sm="12" md="4" lg="4">
+          <Col className="folioImageContainer" xs="12" sm="12" md="6" lg="6">
             <NavLink to="/avs"><img className="img-fluid img-folio folioThumbnail" alt="thumbnail" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/uber.gif"/></NavLink>
             <div className="thumbnailHeader">SELF-DRIVING VEHICLE STIGMA</div>
               <p>
@@ -43,7 +52,7 @@ export default class Home extends Component {
               </p>
               <p className="skillContent"><span className="skillHeader">Skills: </span>survey design, user interviews, product design</p>
           </Col>
-          <Col className="folioImageContainer" xs="12" sm="12" md="4" lg="4">
+          <Col className="folioImageContainer" xs="12" sm="12" md="6" lg="6">
           <NavLink to="/snowbuddy"><img className=" img-fluid img-folio folioThumbnail" alt="thumbnail" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/snowbuddy.jpg"/></NavLink>
             <div className="thumbnailHeader">SNOWBUDDY</div>
               <p>
@@ -51,15 +60,6 @@ export default class Home extends Component {
                 Snowbuddy connects you with your neighbors so you can deal with it together.
               </p>
               <p className="skillContent"><span className="skillHeader">Skills: </span>responsive mobile & web interaction design, survey design, guerrilla interviews </p>
-          </Col>
-          <Col className="folioImageContainer" xs="12" sm="12" md="4" lg="4">
-            <img className="img-fluid img-folio folioThumbnail" alt="thumbnail" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/uber.gif"/>
-            <div className="thumbnailHeader">THINKING ABOUT YOU</div>
-              <p>
-                I designed a mobile social network for exclusive groups of friends.
-                Thinking About You enables brief, friendly interactions to boost self-esteem, and incentivizes users to pay it forward.
-              </p>
-              <p className="skillContent"><span className="skillHeader">Skills: </span>mobile & interaction design</p>
           </Col>
         </Row>
       </div>

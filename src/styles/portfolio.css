@@ -67,11 +67,9 @@ p {
 .a-list {
   font-family: Oswald, sans-serif;
   font-weight: 700;
-  margin: auto;
   font-size: 32px;
   letter-spacing: 1.5px;
   padding: 20px;
-  text-align: center;
 }
 
 .b-list {
@@ -80,7 +78,6 @@ p {
   font-size: 24px;
   letter-spacing: 1.5px;
   margin: auto;
-  padding: 20px 0px 10px 0px;  
 }
 
 /* End Centered List Info*/
@@ -93,11 +90,17 @@ p {
   font-weight: 500;
   font-size: 24px;
   letter-spacing: 1.5px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .body {
-  padding: 10px 200px 20px 70px;
+  padding: 10px 200px 10px 70px;
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+}
+
+.inline-body {
+  padding: 0px 200px 0px 70px;
   font-family: Roboto, sans-serif;
   font-size: 16px;
 }
@@ -140,7 +143,7 @@ p {
 .portfolio-img {
   border-radius: 5px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.15);
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 .flowchart {
@@ -160,11 +163,9 @@ p {
   .a-list {
     font-family: Oswald, sans-serif;
     font-weight: 700;
-    margin: auto;
     font-size: 28px;
     letter-spacing: 1.5px;
     padding: 10px;
-    text-align: center;
   }
 
   .b-list {
@@ -173,7 +174,6 @@ p {
     font-size: 18px;
     letter-spacing: 1.5px;
     margin: auto;
-    padding: 10px 0px 5px 0px;  
   }
 
   .p-list p {
@@ -185,6 +185,12 @@ p {
 
   .body {
     padding: 10px 20px;
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+  }
+
+  .inline-body {
+    padding: 0px 20px;
     font-family: Roboto, sans-serif;
     font-size: 14px;
   }

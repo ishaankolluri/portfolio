@@ -56,7 +56,7 @@ export default class App extends Component {
                     <span></span>
                   </li>
                   <li>
-                    <a rel="noopener noreferrer" href="https://s3.us-east-2.amazonaws.com/ishaankolluri/Ishaan+Kolluri+%E2%80%94+January+2018.pdf" target="_blank">Resume</a>
+                    <a rel="noopener noreferrer" href="https://s3.us-east-2.amazonaws.com/ishaankolluri/Ishaan+Kolluri+Resume.pdf" target="_blank">Resume</a>
                     <span></span>
                   </li>
                 </ul>

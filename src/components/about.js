@@ -30,7 +30,7 @@ export default class About extends Component {
               <b>408 497 4875</b>
             </p>
             <div className="btn-center">
-              <button className="resumeButton buttonShadow"><a rel="noopener noreferrer" href="https://s3.us-east-2.amazonaws.com/ishaankolluri/Ishaan+Kolluri+%E2%80%94+January+2018.pdf" target="_blank">RESUME</a></button>
+              <button className="resumeButton buttonShadow"><a rel="noopener noreferrer" href="https://s3.us-east-2.amazonaws.com/ishaankolluri/Ishaan+Kolluri+Resume.pdf" target="_blank">RESUME</a></button>
             </div>
           </Col>
         </Row>      

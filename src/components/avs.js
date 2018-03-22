@@ -149,7 +149,6 @@ export default class AVS extends Component {
             <button className="resumeButton buttonShadow"><a rel="noopener noreferrer" href="https://s3.us-east-2.amazonaws.com/ishaankolluri/MitigatingCommunicationAmbiguity.pdf" target="_blank">FULL PAPER</a></button>
           </div>
         </Row>
-        <Row><img className="img-fluid portfolio-img medium-image-inline" src="https://s3.us-east-2.amazonaws.com/ishaankolluri/av_presentation.jpg" alt="header"/></Row>
         <Row>
           <div className="a-head">Reflections & further improvements</div>
         </Row>
@@ -162,7 +161,16 @@ export default class AVS extends Component {
             This was an extremely interesting intellectual problem for us. The challenge in autonomous vehicles is designing for the transition infrastructure, with both human and artificially intelligent drivers on the road. There is a lot of industry and academic research in the field, and I'm very glad I got to help design the future.
           </p>
         </Row>
-
+        <Row>
+          <div className="btn-center">
+            <button className="miniButton buttonShadow" onClick={() => this.handleBackToTop()}>BACK TO TOP</button>
+          </div>
+        </Row>
+        <Row>
+          <div className="btn-center">
+            <button className="miniButton buttonShadow"><a rel="noopener noreferrer" href="/portfolio">WORK</a></button>
+          </div>
+        </Row>
       </div>
     );
   }
